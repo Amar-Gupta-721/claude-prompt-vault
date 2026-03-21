@@ -127,7 +127,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
       document.execCommand('copy');
       document.body.removeChild(ta);
     }
-    setCopiedIds(prev => new Set([...prev, id]));
+    setCopiedIds(prev => new Set(Array.from(prev).concat(id)));
     setTimeout(() => setCopiedIds(prev => { const n = new Set(prev); n.delete(id); return n; }), 2000);
     showToast('Prompt copied to clipboard!');
     // Increment copy count in DB
@@ -140,7 +140,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
       const next = new Set(prev);
       if (next.has(id)) { next.delete(id); showToast('Removed from saved'); }
       else { next.add(id); showToast('Saved to bookmarks!'); }
-      localStorage.setItem('saved_prompts', JSON.stringify([...next]));
+      localStorage.setItem('saved_prompts', JSON.stringify(Array.from(next)));
       return next;
     });
   }, [showToast]);
