@@ -218,7 +218,8 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
           <div className="hero-badge-dot" />
           Free. Open Source. Community Driven.
         </div>
-        <h1>The Best Claude Prompts.<br /><em>Instantly Copy.</em> Instantly Build.</h1>
+        {/* <h1>The Best Claude Prompts.<br /><em>Instantly Copy. Instantly Build.</em> </h1> */}
+        <h1>Unlock Claude's<br /><em>Full Power</em> </h1>
         <p className="hero-sub">A curated library of prompts, skills, and workflows. Stop guessing. Start building.</p>
         <div className="hero-actions">
           <a href="#prompts" className="btn-primary" style={{ fontSize: 15, padding: '13px 28px', borderRadius: 10 }}>
