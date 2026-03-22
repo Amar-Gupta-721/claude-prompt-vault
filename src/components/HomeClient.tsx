@@ -524,7 +524,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
             <div className="footer-col-title">Links</div>
             <ul>
               <li><button className="btn-ghost" style={{ padding: 0, color: 'rgba(255,255,255,0.55)', fontSize: 14 }} onClick={() => setAboutOpen(true)}>About</button></li>
-              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://github.com/Amar-Gupta-721/claude-prompt-vault" target="_blank" rel="noopener">GitHub</a></li>
               <li><a href="#">License (MIT)</a></li>
               <li><button className="btn-ghost" style={{ padding: 0, color: 'rgba(255,255,255,0.55)', fontSize: 14 }} onClick={() => setContactOpen(true)}>Contact</button></li>
             </ul>
