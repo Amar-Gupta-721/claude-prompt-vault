@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '@/lib/mongodb';
-import { Prompt, Skill, Stats } from '@/lib/models';
-import { seedPrompts, seedSkills } from '@/lib/seedData';
+import dbConnect from '../../../../lib/mongodb';
+import { Prompt, Skill, Stats } from '../../../../lib/models';
+import { seedPrompts, seedSkills } from '../../../../lib/seedData';
 
 // GET /api/admin/seed — open in browser to seed prompts & skills
 // Admin login uses ADMIN_USERNAME + ADMIN_PASSWORD from .env.local directly (no DB needed)

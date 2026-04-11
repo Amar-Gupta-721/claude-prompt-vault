@@ -36,7 +36,7 @@ export default function AboutModal({ open, onClose }: { open: boolean; onClose: 
             {[
               { initial: 'K', cls: 'about-avatar-1', name: 'Kshitiz Verma', role: 'Engineer & Content Creator', links: [{ href: 'https://www.linkedin.com/in/kshitizverma2712', icon: 'linkedin', label: 'LinkedIn' }, { href: 'https://www.youtube.com/@TheWhy.Guy_', icon: 'youtube', label: 'YouTube' }] },
               { initial: 'A', cls: 'about-avatar-2', name: 'Amar Gupta', role: 'Engineer & Web Development Expert', links: [{ href: 'https://www.linkedin.com/in/amar-gupta-36a3b8176', icon: 'linkedin', label: 'LinkedIn' }] },
-              { initial: 'D', cls: 'about-avatar-3', name: 'Diwakar Pradhan', role: 'AI Research Contributor', links: [{ href: 'https://www.linkedin.com/in/diwakarpradhan0', icon: 'linkedin', label: 'LinkedIn' }] },
+              { initial: 'D', cls: 'about-avatar-3', name: 'Diwakar Pradhan', role: 'Backend Developer & Prompt Contributor', links: [{ href: 'https://www.linkedin.com/in/diwakarpradhan0', icon: 'linkedin', label: 'LinkedIn' }] },
             ].map(m => (
               <div key={m.name} className="about-member">
                 <div className={`about-avatar ${m.cls}`}>{m.initial}</div>

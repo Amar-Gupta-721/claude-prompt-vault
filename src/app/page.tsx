@@ -1,6 +1,6 @@
-import dbConnect from '@/lib/mongodb';
-import { Prompt, Skill, Stats } from '@/lib/models';
-import HomeClient from '@/components/HomeClient';
+import dbConnect from '../lib/mongodb';
+import { Prompt, Skill, Stats } from '../lib/models';
+import HomeClient from '../components/HomeClient';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;

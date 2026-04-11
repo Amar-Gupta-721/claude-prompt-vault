@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import dbConnect from '@/lib/mongodb';
-import { Prompt } from '@/lib/models';
-import { getAdminFromCookies } from '@/lib/auth';
+import dbConnect from '../../../lib/mongodb';
+import { Prompt } from '../../../lib/models';
+import { getAdminFromCookies } from '../../../lib/auth';
 
 export async function GET(req: NextRequest) {
   await dbConnect();
