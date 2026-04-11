@@ -942,7 +942,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
                 </>
               )}
 
-              {showSkills && visibleSkills.length > 0 && (
+              {/* {showSkills && visibleSkills.length > 0 && (
                 <div className={`skills-bg skills-bg-results${bothVisible ? ' skills-bg-both' : ''}`}>
                   {bothVisible ? (
                     <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 28 }}>
@@ -988,7 +988,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
                     })}
                   </div>
                 </div>
-              )}
+              )} */}
             </>
           )}
         </div>
