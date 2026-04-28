@@ -756,7 +756,7 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
             <li><button className="btn-ghost" onClick={() => setAboutOpen(true)}>About</button></li>
           </ul>
           <div className="nav-cta">
-            <button className="btn-ghost" onClick={() => setContactOpen(true)}>Contact</button>
+            {/* <button className="btn-ghost" onClick={() => setContactOpen(true)}>Contact</button> */}
             <button className="btn-primary" onClick={() => setSubmitOpen(true)}>
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
               Submit Prompt
@@ -1091,9 +1091,9 @@ export default function HomeClient({ initialPrompts, initialSkills, initialStats
             <div className="footer-col-title">Links</div>
             <ul>
               <li><button className="btn-ghost" style={{ padding: 0, color: 'rgba(255,255,255,0.55)', fontSize: 14 }} onClick={() => setAboutOpen(true)}>About</button></li>
-              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              {/* <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li> */}
               <li><a href="#">License (MIT)</a></li>
-              <li><button className="btn-ghost" style={{ padding: 0, color: 'rgba(255,255,255,0.55)', fontSize: 14 }} onClick={() => setContactOpen(true)}>Contact</button></li>
+              {/* <li><button className="btn-ghost" style={{ padding: 0, color: 'rgba(255,255,255,0.55)', fontSize: 14 }} onClick={() => setContactOpen(true)}>Contact</button></li> */}
             </ul>
           </div>
         </div>
